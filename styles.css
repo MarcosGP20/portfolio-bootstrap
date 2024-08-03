@@ -1,1 +1,30 @@
+.navbar {
+  padding: 0.8rem;
+  background-color: #e9eef8;
+}
 
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+}
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
