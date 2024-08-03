@@ -16,11 +16,22 @@ section {
 }
 h1 {
   font-size: 3rem;
+  font-family: "Poppins", sans-serif;
 }
 .hero {
-  background-color: #f5f6f7;
+  background-color: #f7f7f7;
   min-height: 450px;
   text-align: center;
+}
+
+.hero-principal {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #615151;
+  font-family: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
