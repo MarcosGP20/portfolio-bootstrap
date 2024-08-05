@@ -96,6 +96,9 @@ h1 {
 .badge {
   margin: 5px;
 }
+.proyectos {
+  font-size: 1.1rem;
+}
 
 @media screen and (max-width: 767px) {
   .navbar-brand {
