@@ -80,6 +80,7 @@ h1 {
   border-radius: 50%;
 }
 .experiencia .col-12 {
+  margin-top: 20px;
   padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
@@ -87,10 +88,17 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
+  width: 80%;
 }
 .experiencia .col-12:hover {
   color: white;
   background-color: #28286d;
+}
+.experiencia-texto {
+  font-size: 1.1rem;
+}
+.fw-bold {
+  font-size: 1.2rem;
 }
 .badges-contenedor {
   font-size: 20px;
