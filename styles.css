@@ -74,7 +74,7 @@ h1 {
 }
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #1eeca8;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -92,7 +92,7 @@ h1 {
 }
 .experiencia .col-12:hover {
   color: white;
-  background-color: #28286d;
+  background-color: #0a0a23;
 }
 .experiencia-texto {
   font-size: 1.1rem;
