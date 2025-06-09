@@ -249,3 +249,32 @@ footer {
     border-color: orange;
   }
 }
+
+.habilidad-card {
+  background-color: #ffffff !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  color: #222;
+}
+.habilidad-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+.habilidad-card img {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
+}
+.habilidad-card span {
+  color: #790101 !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+#habilidades h2 {
+  color: #000000;
+  font-weight: bold;
+}
+#habilidades p {
+  color: #161616;
+}
